@@ -1,0 +1,10 @@
+﻿  Game.cpp
+  Main.cpp
+Main.cpp(23): warning C4316: 'RenderingManager': object allocated on the heap may not be aligned 16
+  RenderingManager.cpp
+  Generating code
+  40 of 2261 functions ( 1.8%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Artefact3D.vcxproj -> C:\Users\Simon\Desktop\Artefact3D\Artefact3D\Release\Artefact3D.exe

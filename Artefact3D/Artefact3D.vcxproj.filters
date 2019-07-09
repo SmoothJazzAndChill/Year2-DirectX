@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{d000d5eb-3f60-4846-805f-4e7497133a3c}</UniqueIdentifier>
+      <Extensions>obj</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{484d786c-c7e7-4636-b93e-faf7976d0588}</UniqueIdentifier>
+      <Extensions>hlsl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Client">
+      <UniqueIdentifier>{6bcbb11f-2bb8-402d-84e7-d3d96c182eaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Client\Entities">
+      <UniqueIdentifier>{1b0f897f-9ffd-4fb1-8f0f-f00f0fadcc71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Client\Systems">
+      <UniqueIdentifier>{986f3f23-c7dd-4daa-af91-e0ce76e6e7c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Client\Components">
+      <UniqueIdentifier>{6d6215fc-1d2d-4bd3-a9f9-629938162a4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Client">
+      <UniqueIdentifier>{442d9d78-af0d-4a4f-88aa-98fa31ad3a87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Client\Entities">
+      <UniqueIdentifier>{a68ef2b2-dcd3-41d3-8813-4a833d47e0b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Client\Systems">
+      <UniqueIdentifier>{11de60e8-3196-4cd9-83ae-fbd743bfc875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Client\Components">
+      <UniqueIdentifier>{6e717d50-a6e3-411d-85b1-5f43073a8593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{50c52aab-ff58-4ef0-b457-68b594521928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{96aa6cd3-664f-4db5-b707-742b58eecea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System">
+      <UniqueIdentifier>{b8c91431-d4fc-4426-a576-f74b8e7d4bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System">
+      <UniqueIdentifier>{65ca3749-e087-4657-b109-3e65cca1a007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Basic">
+      <UniqueIdentifier>{0c479e33-c075-4b88-9b48-84fcbc5298b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Terrain">
+      <UniqueIdentifier>{3446532d-17a2-4644-9eb6-862cd381637d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceManager.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderingManager.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Source Files\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Source Files\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLoader.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DeviceManager.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderingManager.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Header Files\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Header Files\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Header Files\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files\Client\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering.h">
+      <Filter>Header Files\Client\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoader.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files\Client\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\Client\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMovement.h">
+      <Filter>Header Files\Client\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraMovement.h">
+      <Filter>Header Files\Client\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Client\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files\Client\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Vectors.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Assets\Shaders\fBasic.hlsl">
+      <Filter>Shaders\Basic</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\Shaders\vBasic.hlsl">
+      <Filter>Shaders\Basic</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
